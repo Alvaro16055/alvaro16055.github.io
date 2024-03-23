@@ -1,0 +1,48 @@
+#main-contacto{
+    .h1-contacto{
+        @extend %estilos;
+        
+    }
+    .inputs{
+        background-color: lightgray;
+        border-radius: 10px 10px;
+        border: none;
+        text-align: center;
+        width: 250px;
+        height: 25px;
+    }
+    .inputs:focus {
+        transition: 1s;
+        background-color: white;
+    }
+    .main-contacto{
+        @include flex(column,normal,center);
+        gap: 80px;
+        padding-top: 60px;
+        .cajas-inputs{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            .title-inputs{
+                font-size: 25px;
+                color: white;
+            }
+            #text-area{
+                .input-textarea{
+                    height: 50px !important;
+                }
+            }
+ 
+        }
+        .button-contacto{
+            display: flex;
+            justify-content: center;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,154 @@
+@media screen and (max-width: 768px){
+
+    #main-index{
+        .carousel{
+            padding-top: 10px;
+            width: 100vw;
+            .carousel-inner{
+                .carousel-item{
+                    img{
+                        width: 95%;
+                    }
+                }
+            }
+        }
+        #section1-index{
+            div{
+                .seccion-index {
+                    flex-direction: column;
+                    gap: 50px;
+                }
+            }
+        }
+    }
+
+
+    #main-nosotros{
+        .div-nosotros-responsive{
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .title-nosotros{
+            padding-top: 80px;
+        }
+        .section1-nosotros{
+            flex-direction: column-reverse;
+            align-items: center;
+            .img-nosotros{
+                width: 95vw;
+            }
+            .tarjeta-section-nosotros{
+                padding-top: 0px;
+                .text-section-nosotros{
+                    width: 85vw
+                }
+            }
+        }
+    
+
+        .img-integrantes{
+            width: 85vw;
+        }
+        .tarjeta-section-integrantes{
+
+            .text-section-integrantes{
+                width: 90vw;
+            }
+        }
+        .section2-nosotros{
+            gap: 25px;
+            .div-maria{
+                flex-direction: column-reverse;
+            }
+            .div-luisa{
+                flex-direction: column-reverse;
+            }
+            .div-pedro{
+                flex-direction: column-reverse;
+            }
+        }
+        .section3-nosotros{
+            .ultimo-texto-nosotros{
+                width: 85vw;
+            }
+        }
+    }
+
+    
+
+
+    #main-donde-estamos{
+        .title-donde-estamos{
+            font-size: 40px;    
+        }
+        iframe{
+            width: 95vw;
+            height: 40vh;
+        }
+        section{
+    
+         .section-donde-estamos{
+            flex-direction: column;
+            align-items: center;
+            #horarios-donde-estamos{
+    
+                .title-horarios{
+                    font-size: 30px;
+                }
+                .horarios-atencion{ 
+                    align-items: center;
+                    margin-right: 20px;
+                }
+    
+                
+            }
+            .button-donde-estamos{
+                height: 5vh;
+                width: 30vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+
+          }
+        }
+    }
+
+    #main-servicios{
+        .title-servicios{
+            justify-content: center;
+            font-size: 35px;
+        }
+
+        .section-servicios{
+            gap: 50px;
+            .tarjetas-servicios{
+               
+                .img-servicios{
+                    width: 95vw;
+                }
+                .div-servicios{
+                   
+                    .text-servicios{
+                        width: 90vw;
+                    }
+                }
+            }
+        }
+
+        .h3-tarjetas{
+            text-align: center;
+        }
+    }
+    footer{
+        .footer{
+
+            .icons-footer{
+                gap: 50px;
+            }
+        }
+    }
+}

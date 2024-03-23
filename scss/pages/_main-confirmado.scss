@@ -1,0 +1,20 @@
+.main-confirmado{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    .div-confirmado{
+        backdrop-filter: blur(0px);
+        @include flex( column, start, center);
+        color: white;
+        height: 100vh;
+        img{
+            width: 150px;
+        }
+        h1{
+            font-size: $font-size-titles;
+        }
+        p{
+            font-size: 20px;
+        }
+    }   
+}

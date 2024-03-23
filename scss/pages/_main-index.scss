@@ -1,0 +1,78 @@
+#main-index{
+
+    .carousel{
+        width: 75%;
+        padding-top: 20px;
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    width: 75%; 
+                }
+                .carousel-caption{
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    #section1-index{
+        div{
+            .h2-seccion-main{
+                color: white;
+                font-size: 30px;
+                display: flex;
+                justify-content: center;
+                padding-top: 100px;
+
+            }
+            .seccion-index{
+                @include flex(row,center,center);
+                padding-top: 100px;
+                gap: 200px;
+                .cajas-secciones-index{
+                    @include flex(column,normal,center);
+                    @include medidas(15px,normal,255px);
+                    border: 1px solid grey;
+                    box-shadow: 1px 1px 10px 0px white;
+                    padding: 10px;
+                    transition: all;
+                    background-color: rgb(196, 196, 196);
+                    transition-duration: 1s;
+                   .text-secciones-index{
+                    color: black;
+                    text-align: center;
+                    width: 200px;
+                    cursor: default;
+                    font-size: 15px;
+                   }
+                   .icons-index{
+                    width: 60px;
+                   }
+                    .a-secciones-index{
+                        color: black;
+                        text-align: center;
+                        font-size: 25px;
+                        text-decoration: none;
+                    }
+                   
+                }
+                .cajas-secciones-index:hover{
+                    filter: invert(100%);
+                }
+            }
+        }
+    }
+    .button-index{
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+        .btn{
+            a{
+                color: white;
+                text-decoration: none;            
+            }
+        }
+    }
+}

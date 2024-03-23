@@ -1,0 +1,545 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+/*Estilos Globales*/
+body {
+  background-image: linear-gradient(90deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%, rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%, rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%, rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%, rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%, rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%, rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%), linear-gradient(67.5deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%, rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%, rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%, rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%, rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%, rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%, rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%), linear-gradient(112.5deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%, rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%, rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%, rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%, rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%, rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%, rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%), linear-gradient(45deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%, rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%, rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%, rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%, rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%, rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%, rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%), linear-gradient(90deg, rgb(95, 3, 74), rgb(35, 65, 96));
+  background-blend-mode: overlay, overlay, overlay, overlay, normal;
+  font-family: "Poppins", sans-serif;
+  backdrop-filter: blur(20px);
+}
+
+#main-servicios .title-servicios, #main-nosotros .title-nosotros, #main-donde-estamos .title-donde-estamos, #main-contacto .h1-contacto {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+
+.navbar .container-fluid .navbar-brand .logo-nav {
+  width: 85px;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+}
+
+footer .footer {
+  padding-top: 20px;
+  margin-top: 80px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #2B3035;
+}
+footer .footer .text-footer {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+footer .footer .icons-footer {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+footer .footer .icons-footer a img {
+  width: 55px;
+}
+
+#main-index .carousel {
+  width: 75%;
+  padding-top: 20px;
+}
+#main-index .carousel .carousel-inner .carousel-item img {
+  width: 75%;
+}
+#main-index .carousel .carousel-inner .carousel-item .carousel-caption a {
+  text-decoration: none;
+  color: white;
+}
+#main-index #section1-index div .h2-seccion-main {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+#main-index #section1-index div .seccion-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  gap: 200px;
+}
+#main-index #section1-index div .seccion-index .cajas-secciones-index {
+  display: flex;
+  flex-direction: column;
+  justify-content: normal;
+  align-items: center;
+  gap: 15px;
+  width: normal;
+  height: 255px;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 10px 0px white;
+  padding: 10px;
+  transition: all;
+  background-color: rgb(196, 196, 196);
+  transition-duration: 1s;
+}
+#main-index #section1-index div .seccion-index .cajas-secciones-index .text-secciones-index {
+  color: black;
+  text-align: center;
+  width: 200px;
+  cursor: default;
+  font-size: 15px;
+}
+#main-index #section1-index div .seccion-index .cajas-secciones-index .icons-index {
+  width: 60px;
+}
+#main-index #section1-index div .seccion-index .cajas-secciones-index .a-secciones-index {
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+}
+#main-index #section1-index div .seccion-index .cajas-secciones-index:hover {
+  filter: invert(100%);
+}
+#main-index .button-index {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+#main-index .button-index .btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-confirmado {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+.main-confirmado .div-confirmado {
+  backdrop-filter: blur(0px);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  height: 100vh;
+}
+.main-confirmado .div-confirmado img {
+  width: 150px;
+}
+.main-confirmado .div-confirmado h1 {
+  font-size: 40px;
+}
+.main-confirmado .div-confirmado p {
+  font-size: 20px;
+}
+
+#main-contacto .inputs {
+  background-color: lightgray;
+  border-radius: 10px 10px;
+  border: none;
+  text-align: center;
+  width: 250px;
+  height: 25px;
+}
+#main-contacto .inputs:focus {
+  transition: 1s;
+  background-color: white;
+}
+#main-contacto .main-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: normal;
+  align-items: center;
+  gap: 80px;
+  padding-top: 60px;
+}
+#main-contacto .main-contacto .cajas-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+#main-contacto .main-contacto .cajas-inputs .title-inputs {
+  font-size: 25px;
+  color: white;
+}
+#main-contacto .main-contacto .cajas-inputs #text-area .input-textarea {
+  height: 50px !important;
+}
+#main-contacto .main-contacto .button-contacto {
+  display: flex;
+  justify-content: center;
+}
+#main-contacto .main-contacto .button-contacto a {
+  color: white;
+  text-decoration: none;
+}
+
+#main-donde-estamos .title-donde-estamos {
+  padding-top: 35px;
+}
+#main-donde-estamos iframe {
+  width: 90vh;
+  height: 60vh;
+}
+#main-donde-estamos section .section-donde-estamos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+#main-donde-estamos section .section-donde-estamos #horarios-donde-estamos .title-horarios {
+  color: white;
+}
+#main-donde-estamos section .section-donde-estamos #horarios-donde-estamos .horarios-atencion {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 25px;
+  list-style-type: disc;
+  padding-top: 70px;
+}
+#main-donde-estamos section .section-donde-estamos .button-donde-estamos {
+  margin-left: 80px;
+  margin-top: 60px;
+  background-image: linear-gradient(to left, rgba(0, 0, 250, 0.633) 50%, white 50%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 40px;
+  width: 120px;
+  border: none;
+  transition: background-position 0.5s ease;
+}
+#main-donde-estamos section .section-donde-estamos .button-donde-estamos .href-button {
+  text-decoration: none;
+  color: white;
+}
+#main-donde-estamos section .section-donde-estamos .button-donde-estamos .href-button:hover {
+  color: black;
+}
+#main-donde-estamos section .section-donde-estamos .button-donde-estamos:hover {
+  background-position: left;
+}
+
+#main-nosotros .section1-nosotros {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: normal;
+  padding-top: 100px;
+  gap: 100px;
+}
+#main-nosotros .section1-nosotros .img-nosotros {
+  width: 40vw;
+}
+#main-nosotros .section1-nosotros .tarjeta-section-nosotros {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 120px;
+}
+#main-nosotros .section1-nosotros .tarjeta-section-nosotros .text-section-nosotros {
+  color: white;
+  font-size: 20px;
+  width: 30vw;
+  text-align: center;
+}
+#main-nosotros .h2-nosotros {
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-top: 150px;
+  font-size: 50px;
+}
+#main-nosotros .h3-tarjetas {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+#main-nosotros .img-integrantes {
+  width: 20vw;
+}
+#main-nosotros .tarjeta-section-integrantes {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 40px;
+}
+#main-nosotros .tarjeta-section-integrantes .text-section-integrantes {
+  color: white;
+  font-size: 20px;
+  width: 30vw;
+  text-align: center;
+}
+#main-nosotros .section2-nosotros {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+#main-nosotros .section2-nosotros .div-maria {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: normal;
+  padding-top: 100px;
+  gap: 50px;
+}
+#main-nosotros .section2-nosotros .div-juan {
+  display: flex;
+  padding-top: 110px;
+  justify-content: center;
+  gap: 50px;
+}
+#main-nosotros .section2-nosotros .div-luisa {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: normal;
+  padding-top: 100px;
+  gap: 50px;
+}
+#main-nosotros .section2-nosotros .div-carlos {
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+  gap: 50px;
+}
+#main-nosotros .section2-nosotros .div-pedro {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: normal;
+  padding-top: 100px;
+  gap: 50px;
+}
+#main-nosotros .section3-nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: normal;
+  align-items: center;
+  padding-top: 130px;
+}
+#main-nosotros .section3-nosotros .ultimo-texto-nosotros {
+  color: white;
+  font-size: 18px;
+  width: 60vw;
+  text-align: center;
+}
+#main-nosotros .section3-nosotros .button-nosotros {
+  gap: normal;
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(to left, rgba(0, 0, 250, 0.633) 50%, white 50%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: right;
+  border: none;
+  transition: background-position 0.5s ease;
+}
+#main-nosotros .section3-nosotros .button-nosotros a {
+  color: white;
+  text-decoration: none;
+}
+#main-nosotros .section3-nosotros .button-nosotros a:hover {
+  color: black;
+}
+#main-nosotros .section3-nosotros .button-nosotros:hover {
+  background-position: left;
+}
+
+#main-servicios .img-servicios {
+  width: 50vw;
+}
+#main-servicios .section-servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  gap: 100px;
+}
+#main-servicios .section-servicios .tarjetas-servicios {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: normal;
+  align-items: center;
+  gap: 30px;
+  padding-top: 50px;
+  gap: 100px;
+}
+#main-servicios .section-servicios .tarjetas-servicios .img-servicios {
+  width: 50vw;
+}
+#main-servicios .section-servicios .tarjetas-servicios .div-servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+#main-servicios .section-servicios .tarjetas-servicios .div-servicios .text-servicios {
+  color: white;
+  width: 60vw;
+  text-align: center;
+  display: flex;
+}
+#main-servicios .section-servicios #boton-servicios .button-servicios {
+  gap: normal;
+  width: 140px;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(to left, rgba(0, 0, 250, 0.633) 50%, white 50%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: right;
+  border: none;
+  transition: background-position 0.5s ease;
+  font-size: 20px;
+}
+#main-servicios .section-servicios #boton-servicios .button-servicios a {
+  color: white;
+  text-decoration: none;
+}
+#main-servicios .section-servicios #boton-servicios .button-servicios a:hover {
+  color: black;
+}
+#main-servicios .section-servicios #boton-servicios .button-servicios:hover {
+  background-position: left;
+}
+#main-servicios .h3-tarjetas {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  #main-index .carousel {
+    padding-top: 10px;
+    width: 100vw;
+  }
+  #main-index .carousel .carousel-inner .carousel-item img {
+    width: 95%;
+  }
+  #main-index #section1-index div .seccion-index {
+    flex-direction: column;
+    gap: 50px;
+  }
+  #main-nosotros .div-nosotros-responsive {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  #main-nosotros .title-nosotros {
+    padding-top: 80px;
+  }
+  #main-nosotros .section1-nosotros {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #main-nosotros .section1-nosotros .img-nosotros {
+    width: 95vw;
+  }
+  #main-nosotros .section1-nosotros .tarjeta-section-nosotros {
+    padding-top: 0px;
+  }
+  #main-nosotros .section1-nosotros .tarjeta-section-nosotros .text-section-nosotros {
+    width: 85vw;
+  }
+  #main-nosotros .img-integrantes {
+    width: 85vw;
+  }
+  #main-nosotros .tarjeta-section-integrantes .text-section-integrantes {
+    width: 90vw;
+  }
+  #main-nosotros .section2-nosotros {
+    gap: 25px;
+  }
+  #main-nosotros .section2-nosotros .div-maria {
+    flex-direction: column-reverse;
+  }
+  #main-nosotros .section2-nosotros .div-luisa {
+    flex-direction: column-reverse;
+  }
+  #main-nosotros .section2-nosotros .div-pedro {
+    flex-direction: column-reverse;
+  }
+  #main-nosotros .section3-nosotros .ultimo-texto-nosotros {
+    width: 85vw;
+  }
+  #main-donde-estamos .title-donde-estamos {
+    font-size: 40px;
+  }
+  #main-donde-estamos iframe {
+    width: 95vw;
+    height: 40vh;
+  }
+  #main-donde-estamos section .section-donde-estamos {
+    flex-direction: column;
+    align-items: center;
+  }
+  #main-donde-estamos section .section-donde-estamos #horarios-donde-estamos .title-horarios {
+    font-size: 30px;
+  }
+  #main-donde-estamos section .section-donde-estamos #horarios-donde-estamos .horarios-atencion {
+    align-items: center;
+    margin-right: 20px;
+  }
+  #main-donde-estamos section .section-donde-estamos .button-donde-estamos {
+    height: 5vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #main-servicios .title-servicios {
+    justify-content: center;
+    font-size: 35px;
+  }
+  #main-servicios .section-servicios {
+    gap: 50px;
+  }
+  #main-servicios .section-servicios .tarjetas-servicios .img-servicios {
+    width: 95vw;
+  }
+  #main-servicios .section-servicios .tarjetas-servicios .div-servicios .text-servicios {
+    width: 90vw;
+  }
+  #main-servicios .h3-tarjetas {
+    text-align: center;
+  }
+  footer .footer .icons-footer {
+    gap: 50px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
